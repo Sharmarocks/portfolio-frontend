@@ -1,2 +1,35 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
+
+.main {
+  background-image: linear-gradient(62deg, #4568dc 0%, #b06ab3 100%);
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  @include tablet {
+  }
+  @include desktop {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__image {
+    content: url("../../assets/mainimage.gif");
+    height: 70vh;
+    border-radius: 5%;
+    width: 100%;
+
+    @include desktop {
+    }
+  }
+
+  &__intro {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-family: cursive;
+  }
+}
