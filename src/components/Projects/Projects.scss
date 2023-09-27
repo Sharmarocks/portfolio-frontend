@@ -13,6 +13,17 @@
   flex-direction: column;
   margin-top: 2rem;
 
+  @include tablet {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.8rem;
+  }
+
+  @include desktop {
+    padding: 0 32px;
+  }
+
   &__box1,
   &__box2,
   &__box3,
@@ -20,6 +31,13 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 3rem;
     padding-bottom: 1rem;
+
+    @include tablet {
+      width: auto;
+    }
+
+    @include desktop {
+    }
   }
 
   &__image1 {

@@ -1,2 +1,62 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
+
+.footer {
+  text-align: center;
+
+  &__header {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  &__react,
+  &__sass,
+  &__nodejs,
+  &__express,
+  &__sql {
+    margin-right: 3rem;
+  }
+
+  &__react {
+    content: url("../../assets/react.png");
+    height: 15vh;
+    min-width: 10vh;
+  }
+  &__sass {
+    content: url("../../assets/sass.png");
+    height: 15vh;
+  }
+  &__nodejs {
+    content: url("../../assets/nodejs.png");
+    height: 15vh;
+    min-width: 5%;
+  }
+  &__express {
+    content: url("../../assets/download.png");
+    height: 10vh;
+    width: 18%;
+  }
+  &__sql {
+    content: url("../../assets/mysql.png");
+    height: 15vh;
+  }
+
+  &__contactinfo {
+    text-align: center;
+    border-top: 2px solid gray;
+    margin: 3rem 1rem;
+    padding-top: 1rem;
+  }
+
+  &__linkedin {
+    font-size: 5vh;
+    color: blue;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+
+  &__github {
+    font-size: 5vh;
+    color: rgb(42, 39, 39);
+  }
+}
