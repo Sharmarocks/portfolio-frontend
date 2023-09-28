@@ -2,7 +2,7 @@ import "./Main.scss";
 
 function Main() {
   return (
-    <section>
+    <section id="page1">
       <div className="main">
         <div className="main__imgcontainer">
           <img className="main__image" />

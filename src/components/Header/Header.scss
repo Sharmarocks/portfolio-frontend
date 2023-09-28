@@ -1,6 +1,12 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
+#navbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -63,6 +69,10 @@
       transition: initial;
       z-index: initial;
     }
+  }
+
+  &__pagenav {
+    text-decoration: none;
   }
 
   &__listitem {

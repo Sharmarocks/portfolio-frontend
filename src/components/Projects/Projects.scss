@@ -2,7 +2,7 @@
 @use "../../styles/partials/variables" as *;
 
 .heading {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   margin-top: 1.5rem;
 }
@@ -11,7 +11,7 @@
   padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 4rem;
 
   @include tablet {
     flex-wrap: wrap;
@@ -26,8 +26,7 @@
 
   &__box1,
   &__box2,
-  &__box3,
-  &__box4 {
+  &__box3 {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 3rem;
     padding-bottom: 1rem;
@@ -37,12 +36,14 @@
     }
 
     @include desktop {
+      width: auto;
     }
   }
 
   &__image1 {
     content: url("../../assets/mydoctorimage.png");
     height: 30vh;
+
     min-width: 100%;
   }
 
@@ -57,15 +58,22 @@
     height: 30vh;
     min-width: 100%;
   }
-  &__image4 {
-    content: url("../../assets/travelsiteimage.png");
-    height: 30vh;
-    min-width: 100%;
-  }
 
   &__subheading {
     font-size: 1.5rem;
     margin: 1rem 0rem;
+  }
+
+  &__info {
+  }
+
+  &__tip {
+    margin-top: 1rem;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-around;
   }
 
   &__livelink {

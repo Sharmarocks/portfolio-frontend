@@ -3,13 +3,23 @@ import { Link } from "react-router-dom";
 
 function Projects() {
   return (
-    <section>
+    <section id="page2">
       <p className="heading">My Work</p>
 
       <div className="projects">
         <div className="projects__box1">
           <img className="projects__image1" />
           <p className="projects__subheading">MyDoctor</p>
+
+          {/* <p className="projects__info">
+            MyDoctor is an innovative online platform to find doctors nearby and
+            book appointments online
+          </p>
+          <p className="projects__tip">
+            Please wait for 2 mins after clicking on doctors as the backend is
+            deployed through render.
+          </p> */}
+
           <Link
             to={"https://cosmic-madeleine-85e461.netlify.app"}
             className="projects__livelink"
@@ -27,6 +37,17 @@ function Projects() {
         <div className="projects__box2">
           <img className="projects__image2" />
           <p className="projects__subheading">BrainFlix</p>
+          {/* 
+          <p className="projects__info">
+            Demonstrated proficiency in full-stack development. Integrated
+            static features with a mock movie API and subsequently built a
+            functional backend API service to manage video content effectively.
+          </p>
+
+          <p className="projects__tip">
+            Please wait for 2 mins for the content to load as the backend is
+            deployed through render.
+          </p> */}
           <Link
             to={"https://stunning-gecko-19e89e.netlify.app"}
             className="projects__livelink"
@@ -43,7 +64,13 @@ function Projects() {
         </div>
         <div className="projects__box3">
           <img className="projects__image3" />
+
           <p className="projects__subheading">BandSite</p>
+          {/* <p className="projects__info">
+            Collaborated with design specs and mock ups to create a fully
+            functional live site. Successfully delivered a dynamic and engaging
+            online presence for the up-and-coming band
+          </p> */}
           <Link
             to={"https://clinquant-starlight-4884a4.netlify.app"}
             className="projects__livelink"
@@ -53,23 +80,6 @@ function Projects() {
           <br />
           <Link
             to={"https://github.com/Sharmarocks/rahul-sharma-bandsite"}
-            className="projects__githublink"
-          >
-            Github
-          </Link>
-        </div>
-        <div className="projects__box4">
-          <img className="projects__image4" />
-          <p className="projects__subheading">Travelling Site</p>
-          <Link
-            to={"https://dazzling-figolla-001233.netlify.app"}
-            className="projects__livelink"
-          >
-            Visit
-          </Link>
-          <br />
-          <Link
-            to={"https://github.com/Sharmarocks/Rahul-Sharma-travelsite"}
             className="projects__githublink"
           >
             Github

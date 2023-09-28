@@ -33,7 +33,7 @@
   }
   &__express {
     content: url("../../assets/download.png");
-    height: 10vh;
+    height: 10clvh;
     width: 18%;
   }
   &__sql {
@@ -44,7 +44,7 @@
   &__contactinfo {
     text-align: center;
     border-top: 2px solid gray;
-    margin: 3rem 1rem;
+    margin: 2rem 5rem;
     padding-top: 1rem;
   }
 
@@ -58,5 +58,9 @@
   &__github {
     font-size: 5vh;
     color: rgb(42, 39, 39);
+  }
+
+  &__gmail {
+    margin-top: 1rem;
   }
 }
