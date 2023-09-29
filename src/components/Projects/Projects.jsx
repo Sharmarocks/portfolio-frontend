@@ -47,8 +47,8 @@ function Projects() {
           </p>
 
           <p className="projects__tip">
-            Please wait for 2 mins for the content to load as the backend <br />{" "}
-            is deployed through render.
+            Please wait for 2 mins for the content to load, as the backend{" "}
+            <br /> is deployed through Render.
           </p>
           <Link
             to={"https://stunning-gecko-19e89e.netlify.app"}
