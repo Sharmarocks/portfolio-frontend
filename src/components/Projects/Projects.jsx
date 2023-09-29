@@ -11,14 +11,15 @@ function Projects() {
           <img className="projects__image1" />
           <p className="projects__subheading">MyDoctor</p>
 
-          {/* <p className="projects__info">
-            MyDoctor is an innovative online platform to find doctors nearby and
-            book appointments online
+          <p className="projects__info">
+            MyDoctor is an innovative online platform to find doctors nearby
+            <br /> and book appointments online
           </p>
+
           <p className="projects__tip">
-            Please wait for 2 mins after clicking on doctors as the backend is
-            deployed through render.
-          </p> */}
+            Please wait for 2 mins after clicking on Doctors as the backend{" "}
+            <br /> is deployed through Render.
+          </p>
 
           <Link
             to={"https://cosmic-madeleine-85e461.netlify.app"}
@@ -37,17 +38,18 @@ function Projects() {
         <div className="projects__box2">
           <img className="projects__image2" />
           <p className="projects__subheading">BrainFlix</p>
-          {/* 
+
           <p className="projects__info">
             Demonstrated proficiency in full-stack development. Integrated
-            static features with a mock movie API and subsequently built a
+            <br />
+            static features with a mock movie API and subsequently built a<br />
             functional backend API service to manage video content effectively.
           </p>
 
           <p className="projects__tip">
-            Please wait for 2 mins for the content to load as the backend is
-            deployed through render.
-          </p> */}
+            Please wait for 2 mins for the content to load as the backend <br />{" "}
+            is deployed through render.
+          </p>
           <Link
             to={"https://stunning-gecko-19e89e.netlify.app"}
             className="projects__livelink"
@@ -66,11 +68,12 @@ function Projects() {
           <img className="projects__image3" />
 
           <p className="projects__subheading">BandSite</p>
-          {/* <p className="projects__info">
+          <p className="projects__info">
             Collaborated with design specs and mock ups to create a fully
-            functional live site. Successfully delivered a dynamic and engaging
-            online presence for the up-and-coming band
-          </p> */}
+            <br />
+            functional live site. Successfully delivered a dynamic and
+            <br /> engaging online presence for the up-and-coming band
+          </p>
           <Link
             to={"https://clinquant-starlight-4884a4.netlify.app"}
             className="projects__livelink"
