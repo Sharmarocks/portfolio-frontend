@@ -19,11 +19,15 @@
 
   &__image {
     content: url("../../assets/mainimage.gif");
-    height: 70vh;
+    height: 50vh;
     border-radius: 50%;
     width: 100%;
 
+    @include tablet {
+      height: 70vh;
+    }
     @include desktop {
+      height: 70vh;
     }
   }
 
